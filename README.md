@@ -1,9 +1,8 @@
 This is a simple bot that greets users.
 
-----------
+
 Installing
 ----------
-
 1) This bot uses the "python-telegram-bot" library:
 
     $ pip install python-telegram-bot --upgrade
@@ -12,7 +11,6 @@ Installing
 
     $ git clone https://github.com/mxssl/py_telegram_welcome_bot.git
 
------
 Usage
 -----
 
