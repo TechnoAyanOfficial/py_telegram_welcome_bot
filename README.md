@@ -14,4 +14,4 @@ Installing
 Usage
 -----
 
-Replace <TOKEN> with your token from the BotFather bot.
+Replace "TOKEN" with your token from the BotFather bot.
