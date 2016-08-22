@@ -6,13 +6,9 @@ Installing
 
 1) This bot uses the "python-telegram-bot" library:
 
-.. code:: shell
-
     $ pip install python-telegram-bot --upgrade
 
 2) Then just clone the repo:
-
-.. code:: shell
 
     $ git clone https://github.com/mxssl/py_telegram_welcome_bot.git
 
