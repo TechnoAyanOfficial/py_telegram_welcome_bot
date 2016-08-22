@@ -1,4 +1,4 @@
-This is a simple bot that greets users.
+This is a simple bot for Telegram that greets users.
 
 
 Installing
