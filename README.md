@@ -1,15 +1,22 @@
 This is a simple bot that greets users.
 
-Installation:
+==========
+Installing
+==========
 
-1) This bot is using the "python-telegram-bot" library:
+1) This bot uses the "python-telegram-bot" library:
 
-$ pip install python-telegram-bot --upgrade
+.. code:: shell
 
-2) Then just clone repo:
+    $ pip install python-telegram-bot --upgrade
 
-$ git clone https://github.com/mxssl/py_telegram_welcome_bot.git
+2) Then just clone the repo:
 
-Usage:
+.. code:: shell
+
+    $ git clone https://github.com/mxssl/py_telegram_welcome_bot.git
+
+==========
+Usage
+==========
 Replace <TOKEN> with your token from the BotFather bot.
-
