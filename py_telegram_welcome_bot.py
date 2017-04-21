@@ -11,10 +11,10 @@ logger = logging.getLogger(__name__)
 
 # Standard commands
 def start(bot, update):
-    bot.sendMessage(update.message.chat_id, text='Hi there!')
+    bot.sendMessage(update.message.chat_id, text='Hi!')
 
 def help(bot, update):
-    bot.sendMessage(update.message.chat_id, text="Help! I need somebody, Help! Not just anybody, Help!"
+    bot.sendMessage(update.message.chat_id, text="Help!"
 
 def error(bot, update, error):
     logger.warn('Update "%s" caused error "%s"' % (update, error))
