@@ -22,7 +22,7 @@ def error(bot, update, error):
 def welcome(bot,update):
     msg = update.message
     chat_id = msg.chat.id
-    bot.sendMessage(update.message.chat_id, "@%s \n Welcome to our awesome group!" % msg.new_chat_member.username)
+    bot.sendMessage(update.message.chat_id, "@%s \nWelcome!" % msg.new_chat_member.username)
 
 def main():
     # Create the Updater and pass it your bot's token.
