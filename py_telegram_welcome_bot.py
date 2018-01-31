@@ -36,6 +36,7 @@ def main():
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
 
+                    
     # Message handlers
     dp.add_handler(MessageHandler([Filters.status_update], welcome))
 
