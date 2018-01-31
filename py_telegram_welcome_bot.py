@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 def start(bot, update):
     bot.sendMessage(update.message.chat_id, text='Hi!')
 
+    
 def help(bot, update):
     bot.sendMessage(update.message.chat_id, text="Help!"
 
