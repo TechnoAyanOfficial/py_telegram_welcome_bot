@@ -9,7 +9,6 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-
 # Standard commands
 def start(bot, update):
     bot.sendMessage(update.message.chat_id, text='Hi!')
